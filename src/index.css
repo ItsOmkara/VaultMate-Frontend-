@@ -5,6 +5,10 @@ body {
   font-family: 'Outfit', sans-serif;
   background-color: #fcfbfc;
   overflow-x: hidden;
+  /* font-family: 'Outfit', sans-serif;
+  background-color: #121212; /* Dark background */
+  /* color: white;
+  overflow-x: hidden; */ 
 }
 
 .input-box {
@@ -12,7 +16,8 @@ body {
 }
 
 .btn-primary {
-  @apply w-full text-sm font-medium text-white bg-purple-900 shadow-lg shadow-purple-800/20 p-[10px] rounded-md my-1 hover:bg-purple-700 hover:shadow-purple-900/30;
+  /* @apply w-full text-sm font-medium text-white bg-purple-900 shadow-lg shadow-purple-800/20 p-[10px] rounded-md my-1 hover:bg-purple-700 hover:shadow-purple-900/30; */
+  @apply w-full text-sm font-medium text-white bg-blue-600 shadow-md shadow-blue-500/30 p-[10px] rounded-md my-1 hover:bg-blue-500 hover:shadow-blue-600/40;
 }
 
 .card {

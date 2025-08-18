@@ -1,12 +1,16 @@
-import logo from "./logo.png";
+//import logo from "./logo.png";
 import login_bg from "./login-bg.png";
 import landing from "./landing.png";
 import {Coins, FunnelPlus, LayoutDashboard, List, Wallet} from "lucide-react";
+import logos from "./logos.png";
+import ChatGPTlogo from "./ChatGPTlogo.png";
 
 export const assets = {
-    logo,
+    
+    logos,
     login_bg,
     landing,
+    ChatGPTlogo
 }
 
 export const SIDE_BAR_DATA = [
