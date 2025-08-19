@@ -113,6 +113,7 @@ const Filter = () => {
                             amount={transaction.amount}
                             type={type}
                             hideDeleteBtn
+                            
                         />
                     ))}
                 </div>
